@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Feedora
 
-## Getting Started
+**Feedora** é uma ferramenta moderna para organizar o feed do Instagram. Desenvolvido com **Next.js 15**, **Tailwind CSS** e **ShadCN UI**, este projeto permite que os usuários gerenciem o conteúdo do seu Instagram de maneira simples e eficiente.
 
-First, run the development server:
+## Funcionalidades
+
+- **Conectar Conta do Instagram**: Adicione sua conta para importar fotos e vídeos.
+- **Visualização do Feed**: Veja suas fotos e vídeos de forma organizada.
+- **Adicionar Novas Fotos e Vídeos**: Adicione novos conteúdos diretamente no seu feed.
+- **Mover Fotos**: Organize as fotos na ordem desejada.
+- **Excluir Fotos**: Remova fotos ou vídeos do feed.
+- **Armazenamento do @**: Feedora lembra seu @ para facilitar o uso futuro.
+
+## Tecnologias Usadas
+
+- **Next.js 15**: Framework React para renderização no lado do servidor e cliente.
+- **Tailwind CSS**: Framework CSS para design responsivo e rápido.
+- **ShadCN UI**: Biblioteca de componentes modernos e de alta qualidade.
+
+## Começando
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/Peedrohenrique/feedora.git
+
+   ```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd feedora
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra o navegador e acesse http://localhost:3000 para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando o arquivo **app/page.tsx.** A página será atualizada automaticamente à medida que você editar o arquivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Como Contribuir
 
-To learn more about Next.js, take a look at the following resources:
+1. Faça um **fork** deste repositório.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Crie uma nova branch (git checkout -b feature/nova-feature).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Realize as alterações necessárias.
 
-## Deploy on Vercel
+4. Faça o **commit** (git commit -m 'Adiciona nova feature').
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Faça o **push** para a sua branch (git push origin feature/nova-feature).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. Abra uma **pull request.**
+
+
+## Como Contribuir
+
+Este projeto está licenciado sob a **MIT License.** Veja o arquivo LICENSE para mais detalhes.
+
+arduino
+Copiar
+Editar
